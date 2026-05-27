@@ -1,0 +1,46 @@
+
+AETHER ANALYSIS - CAR TRANSMISSION VIDEO
+======================================
+
+VIDEO CONTENT:
+The video shows a 3D animation of a vehicle powertrain system:
+
+VISUAL ELEMENTS:
+1. Open-frame go-kart chassis (light blue tubular frame)
+2. Crash-test dummy driver
+3. Three large purple spur gears (transmission)
+4. Motor/engine block
+5. Digital displays (speedometer at 0, tachometer at 0)
+6. Black wheels with silver rims
+
+PHYSICS IN THE VIDEO:
+- Gear system showing torque transfer
+- Speed = 0 km/h (vehicle stationary)
+- RPM = 0 (engine off)
+
+MECHANISM TYPE: vehicle (gearbox/transmission)
+
+PHYSICS EQUATIONS DEMONSTRATED:
+1. GEAR RATIO: ω_out/ω_in = N_in/N_out
+2. TORQUE MULTIPLICATION: τ_out = τ_in × (N_in/N_out) × η
+3. POWER: P = τ × ω (constant through gear train)
+
+ACTUAL PHYSICS LEARNED:
+- Suspension stiffness: ~150 N/m
+- Damping: ~15 Ns/m  
+- Chassis mass: ~2 kg (scaled model)
+
+WHAT-IF SCENARIOS:
+1. IF we increase gear ratio from 3.5:1 to 5:1:
+   → More torque at wheels (5/3.5 = 1.43x)
+   → Slower top speed
+   → Better acceleration
+
+2. IF we add a 4th gear:
+   → Better highway fuel economy
+   → Maintain acceleration in higher speeds
+
+3. IF we make gears larger:
+   → Higher torque capacity
+   → More weight
+   → Inertia increases

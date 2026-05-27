@@ -1,0 +1,24 @@
+
+WHAT-IF: Car Transmission Analysis
+==================================
+
+Based on the car engine and transmission video:
+
+SCENARIO: If gear ratio changes from 3.5:1 to 2.0:1
+
+PHYSICS:
+1. Torque multiplication: (3.5/2.0) = 1.75x MORE torque at wheels
+2. Engine RPM at 60mph: Would DROP from ~3000 to ~1700 RPM
+3. Fuel efficiency: Would IMPROVE by ~30% due to lower RPM
+4. Acceleration: Would SLOW initially but sustain higher top speed
+
+REAL EQUATIONS:
+- Gear Ratio = Engine RPM / Wheel RPM
+- Wheel Torque = Engine Torque × Gear Ratio × Efficiency
+- Efficiency typical: 85-95% for manual, 75-85% for automatic
+
+SIMULATION NEEDED:
+Run MuJoCo with:
+- Lower gear ratio (2.0:1)
+- Same engine torque curve
+- Measure: 0-60 time, top speed, fuel consumption

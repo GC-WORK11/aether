@@ -1,0 +1,60 @@
+{
+  "video_analysis": {
+    "session_id": "c8b9f092",
+    "frame_analyzed": 15,
+    "total_frames": 30,
+    "mechanism_type": "vehicle_transmission"
+  },
+  "detected_objects": 3,
+  "point_cloud_stats": {
+    "total_points": 431578,
+    "depth_range": [
+      738.0625610351562,
+      1647.166748046875
+    ]
+  },
+  "physics_parameters": {
+    "vehicle": {
+      "chassis_mass_kg": 2.0,
+      "suspension_stiffness_N_m": 150.0,
+      "suspension_damping_Ns_m": 15.0,
+      "wheel_radius_m": 0.03
+    },
+    "transmission": {
+      "gear_ratios": [
+        3.5,
+        2.0,
+        1.5,
+        1.0
+      ],
+      "final_drive_ratio": 3.73,
+      "efficiency": 0.85
+    },
+    "engine": {
+      "max_torque_Nm": 250,
+      "max_power_hp": 200,
+      "redline_rpm": 6500
+    }
+  },
+  "what_if_scenarios": [
+    {
+      "name": "Lower Gear Ratio",
+      "description": "Change from 3.5:1 to 2.0:1 first gear",
+      "expected_effects": [
+        "1.75x more wheel torque",
+        "Lower acceleration",
+        "Higher top speed potential",
+        "Better fuel economy"
+      ]
+    },
+    {
+      "name": "Stiffer Suspension",
+      "description": "Increase spring constant by 50%",
+      "expected_effects": [
+        "Reduced body roll",
+        "Faster handling response",
+        "Rougher ride quality"
+      ]
+    }
+  ]
+}

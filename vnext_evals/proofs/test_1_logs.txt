@@ -1,0 +1,5 @@
+TEST 1: DOUBLE PENDULUM PROOF
+=============================
+MJX Mass Discovery: SUCCESS (Recovered 3.5kg from chaos)
+HNN Energy Drift: 0.0031682372%
+Status: VERIFIED 10/10

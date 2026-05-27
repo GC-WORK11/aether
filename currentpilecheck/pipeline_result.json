@@ -1,0 +1,75 @@
+{
+  "session_id": "c8b9f092",
+  "pipeline": "AETHER Complete",
+  "n_frames": 30,
+  "stages": {
+    "perception": {
+      "time_seconds": 5.75255560874939,
+      "n_masks_per_frame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "total_masks": 5
+    },
+    "scene_graph": {
+      "time_seconds": 0.0014252662658691406,
+      "mechanism_type": "vehicle",
+      "n_objects": 1,
+      "n_edges": 0
+    },
+    "tracking": {
+      "time_seconds": 0.03699374198913574,
+      "n_tracked_objects": 1,
+      "n_trajectories": 1
+    },
+    "inverse_dynamics": {
+      "time_seconds": 0.0003497600555419922,
+      "n_learned_params": 1,
+      "learned_params": {
+        "obj_0": {
+          "error": "insufficient_motion",
+          "message": "Trajectory has less than 3 pixels of motion",
+          "confidence": 0.0
+        }
+      }
+    },
+    "reconstruction": {
+      "time_seconds": 7.002587556838989,
+      "depth_range": [
+        2493.48779296875,
+        3227.0458984375
+      ],
+      "n_point_clouds": 1
+    },
+    "simulation": {
+      "time_seconds": 0.22444677352905273,
+      "mechanism_type": "vehicle",
+      "params_used": {
+        "mass_kg": 1.0,
+        "friction": 0.3,
+        "damping": 0.05
+      },
+      "sim_duration": 1.0,
+      "success": false
+    },
+    "knowledge": {
+      "time_seconds": 11.72547698020935,
+      "n_chunks": 0,
+      "chunks": []
+    }
+  },
+  "total_time_seconds": 24.744630813598633,
+  "answer": {
+    "text": "Based on the complete AETHER analysis:\n\n**Mechanism Detected:** vehicle\n\n**Physics Learned from Motion:**\n\n- obj_0: \n\n**Simulation:** Failed\n\n**Total Analysis Time:** 24.7s",
+    "mechanism_type": "vehicle",
+    "context": [
+      "Detected mechanism: vehicle",
+      "Objects tracked: 1",
+      "obj_0: {'error': 'insufficient_motion', 'message': 'Trajectory has less than 3 pixels of motion', 'confidence': 0.0}"
+    ],
+    "grounded": false
+  }
+}
